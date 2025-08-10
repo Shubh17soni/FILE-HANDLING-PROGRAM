@@ -23,3 +23,6 @@ This tool also gave me a better understanding of how file streams work in C. For
 What I really appreciated about Code::Blocks was its stability during testing. I could easily run multiple iterations of my code, modify it, and test again without delays or crashes. The workspace management also helped — I could keep my .c file, compiler output, and file content all visible without switching between windows or tools. That really helped keep my workflow clean and productive.
 
 Overall, using Code::Blocks gave me both a smooth coding experience and a better understanding of file handling in C. It’s a great tool for students, interns, or beginners working on foundational programming concepts. This project helped me not just write functional code, but also learn how file input/output works on a deeper level — from creating and modifying files to handling errors and protecting data flow safely. I feel more confident in approaching similar tasks in the future, and I’m glad I could complete this with both understanding and clarity.
+
+*OUTPUT*
+<img width="1103" height="640" alt="Image" src="https://github.com/user-attachments/assets/397358ca-207c-48e3-bde3-55d722e8f5e9" />
