@@ -1,0 +1,46 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+int main()
+{
+int ch;
+FILE*fp; //creating a file pointer
+fp=fopen("first.txt","w"); // command for write mode using "w"
+if(fp==NULL)
+{
+printf("error in creating a file\n");     //if your file is empty so it wont open
+return 1;
+}
+printf("file is ready to take the data\n");
+printf("My name is Shubh Soni\n");
+printf("I am doing internship in CODTECH \n");
+fclose(fp);
+printf("data is written successfully \n");
+
+ // for reading the file
+
+fp=fopen("first.txt","r"); // command for reading a file using "r"
+if(fp==NULL)
+{
+printf("error in creating a file\n");     //if your file is empty so it wont open
+return 1;
+}
+while((ch=fgetc(fp))!=EOF){   // loop for reading and EOF = end of file
+    putchar(ch);
+}
+fclose(fp);
+
+// for appending data in the file
+
+fp=fopen("first.txt","a"); // command for appending data in file using "a"
+if(fp==NULL)
+{
+printf("error in creating a file\n");     //if your file is empty so it wont open
+return 1;
+}
+printf("I am using append to add more data\n");
+fclose(fp);
+
+
+return 0;
+}
